@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Tailwind Setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply some basic styling to the App */
+.App {
+  @apply text-center;
+  background-color: #EDC9D4; /* Soft pastel color */
+}
+
+.App-logo {
+  @apply h-16 w-16 mx-auto;
+}
+
+.App-header {
+  @apply bg-blue-600 text-white min-h-screen flex flex-col items-center justify-center text-lg;
+}
+
+.App-link {
+  @apply text-blue-500;
+}
+
+/* Navigation Bar Styling */
+.App-nav {
+  @apply bg-blue-600 text-white w-full p-4 shadow-md flex justify-between items-center px-10;
+}
+
+.App-nav h1 {
+  @apply text-2xl font-bold;
+}
+
+.App-nav .space-x-6 a {
+  @apply hover:bg-blue-500 px-4 py-2 rounded-md;
+}
+
+/* Footer Styling */
+.App-footer {
+  @apply bg-gray-800 text-white text-center p-4 mt-auto;
+}
+
+.footer-links {
+  @apply space-x-6;
+}
+
+.footer-links a {
+  @apply hover:text-white;
+}
