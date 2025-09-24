@@ -27,15 +27,7 @@ A web app that analyzes the sentiment of text input (like news or articles) and 
 1. Clone the repo  
    ```bash
    git clone https://github.com/your-username/news-sentiment-analyzer.git
-Install dependencies
-
-bash
-Copy code
-npm install
-Start the dev server
-
-bash
-Copy code
-npm start
-🌐 Live Demo
+2.Install dependencies- npm install
+3.Start the dev server- npm start
+4.🌐 Live Demo
 https://news-sentiment-analyzer-frontend.vercel.app/
