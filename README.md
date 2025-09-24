@@ -31,3 +31,5 @@ A web app that analyzes the sentiment of text input (like news or articles) and 
 3.Start the dev server- npm start
 4.🌐 Live Demo (ONLY FRONTEND)
 https://news-sentiment-analyzer-frontend.vercel.app/
+5. Video Demo
+https://drive.google.com/file/d/1GaCzZ-UQ-wYyz3iQ67thYXcKaFsy4v9h/view
